@@ -1,0 +1,98 @@
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+.titulo-principal {
+	text-align: center;
+	background-color: #E8E8E8;
+	color: #000080;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+.rodape-pagina {
+	background-color: #1E90FF;
+	color: #F2FFFC;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.icones-redes-sociais li {
+	display: inline-block;
+}
+
+.icones-redes-sociais a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-indent: -99999px;
+}
+
+.github {
+	background-image: url(../imagens/github.png);
+}
+
+.twitter {
+	background-image: url(../imagens/twitter.png);
+}
+
+.linkedin {
+	background-image: url(../imagens/linkedin.png);
+}
+
+main {
+	float: left;
+	width: 100%;
+	padding-bottom: 80px;
+}
+
+main div {
+    width: 720px;
+    margin: auto;
+}
+
+main table {
+    text-align: center;
+    width: 100%
+}
+
+td {
+	border: 2px solid #bbb;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid #bbb;
+    
+}
+
+td.titulo {
+	background-color: #bbb;
+}
+
+td.consumo-alto {
+    background-color:red;
+}
+
+td.consumo-medio {
+    background-color: yellow;
+}
+
+td.consumo-baixo {
+    background-color: green;
+}
+
